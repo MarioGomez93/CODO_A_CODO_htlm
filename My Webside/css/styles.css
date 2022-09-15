@@ -1,0 +1,60 @@
+html,body {
+    height:100%;
+    font-family: 'Aboreto';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#053fff;
+    color:rgb(255, 255, 255);
+    padding: 10px 0px;
+    align-items: center;
+}
+
+section {
+   
+    font-family: '';
+    width: 75%;
+    background: rgb(137, 228, 255);
+    float: left;
+    overflow: auto;
+    padding-bottom: 30px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+     background: rgb(73, 122, 255);
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+
+footer {
+    font-family: '';
+    position: relative;
+    height: 35px; 
+    padding:5px 0px;
+    clear: both;
+    background: #313eff;
+    text-align: center;
+    color: #fff;
+}
+
+figure {
+    display: table; margin: 0 auto;
+}
+
+div a {
+    color: #fff;
+}
+
+#divPersonalizado {
+    color: rgb(10, 253, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
